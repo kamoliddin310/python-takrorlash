@@ -1,17 +1,21 @@
-class Student:
-    davlati = "uzbekistan"
-    shahar = "samarqand"
-
-    def __init__(self, name, age, grade, phone):
-        self.ismi = name
-        self.yoshi = age
-        self.sinfi = grade
-        self.telefoni = phone
-        
+import json
 
 
-s1 = Student("ali", 16, 7, 43545435)
+with open("products.json") as f:
 
-print(s1.davlati)
-print(s1)
+    json_str = f.read()
 
+    product_list: list[dict] = json.loads(json_str)
+
+    new_product = {
+        "nomi": input("nomi >> "),
+        "narx": int(input("narxi >> ")),
+        "turi": input("turi >> ")
+    }
+    product_list.append(new_product)
+
+with open("products.json", "w") as f:
+
+    json_str = json.dumps(product_list, indent=4)
+
+    f.write(json_str)
