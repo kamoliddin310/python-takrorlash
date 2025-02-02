@@ -1,0 +1,1 @@
+print("qila olmadim")
