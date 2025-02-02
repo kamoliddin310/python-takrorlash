@@ -1,32 +1,167 @@
 [
-    {"nomi": "Apple iPhone 14", "narx": 1000, "turi": "Smartfon"},
-    {"nomi": "Samsung Galaxy S23", "narx": 950, "turi": "Smartfon"},
-    {"nomi": "Xiaomi Redmi Note 12", "narx": 350, "turi": "Smartfon"},
-    {"nomi": "Google Pixel 7", "narx": 800, "turi": "Smartfon"},
-    {"nomi": "OnePlus 11", "narx": 700, "turi": "Smartfon"},
-    {"nomi": "MacBook Pro 16", "narx": 2500, "turi": "Kompyuter"},
-    {"nomi": "Dell XPS 15", "narx": 2200, "turi": "Kompyuter"},
-    {"nomi": "Lenovo ThinkPad X1", "narx": 1800, "turi": "Kompyuter"},
-    {"nomi": "HP Spectre x360", "narx": 1600, "turi": "Kompyuter"},
-    {"nomi": "Asus ROG Strix", "narx": 2000, "turi": "Kompyuter"},
-    {"nomi": "Sony WH-1000XM5", "narx": 400, "turi": "Aksesuar"},
-    {"nomi": "Bose QuietComfort 45", "narx": 380, "turi": "Aksesuar"},
-    {"nomi": "Logitech MX Master 3", "narx": 100, "turi": "Aksesuar"},
-    {"nomi": "Razer DeathAdder V2", "narx": 80, "turi": "Aksesuar"},
-    {"nomi": "SteelSeries Apex Pro", "narx": 200, "turi": "Aksesuar"},
-    {"nomi": "Samsung 49\" UltraWide Monitor", "narx": 900, "turi": "Aksesuar"},
-    {"nomi": "Dell 27\" 4K Monitor", "narx": 500, "turi": "Aksesuar"},
-    {"nomi": "Apple Watch Series 8", "narx": 500, "turi": "Aksesuar"},
-    {"nomi": "Samsung Galaxy Watch 5", "narx": 450, "turi": "Aksesuar"},
-    {"nomi": "Garmin Fenix 7", "narx": 700, "turi": "Aksesuar"},
-    {"nomi": "Sony PlayStation 5", "narx": 550, "turi": "Konsol"},
-    {"nomi": "Xbox Series X", "narx": 500, "turi": "Konsol"},
-    {"nomi": "Nintendo Switch OLED", "narx": 350, "turi": "Konsol"},
-    {"nomi": "Razer Blade 15", "narx": 2300, "turi": "Kompyuter"},
-    {"nomi": "Alienware Aurora R15", "narx": 2800, "turi": "Kompyuter"},
-    {"nomi": "Corsair K100 RGB Keyboard", "narx": 250, "turi": "Aksesuar"},
-    {"nomi": "JBL Charge 5 Speaker", "narx": 150, "turi": "Aksesuar"},
-    {"nomi": "Anker PowerCore 26800", "narx": 90, "turi": "Aksesuar"},
-    {"nomi": "HyperX Cloud II", "narx": 120, "turi": "Aksesuar"},
-    {"nomi": "Epson EcoTank Printer", "narx": 400, "turi": "Aksesuar"}
+    {
+        "nomi": "Apple iPhone 14",
+        "narx": 1000,
+        "turi": "Smartfon"
+    },
+    {
+        "nomi": "Samsung Galaxy S23",
+        "narx": 950,
+        "turi": "Smartfon"
+    },
+    {
+        "nomi": "Xiaomi Redmi Note 12",
+        "narx": 350,
+        "turi": "Smartfon"
+    },
+    {
+        "nomi": "Google Pixel 7",
+        "narx": 800,
+        "turi": "Smartfon"
+    },
+    {
+        "nomi": "OnePlus 11",
+        "narx": 700,
+        "turi": "Smartfon"
+    },
+    {
+        "nomi": "MacBook Pro 16",
+        "narx": 2500,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "Dell XPS 15",
+        "narx": 2200,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "Lenovo ThinkPad X1",
+        "narx": 1800,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "HP Spectre x360",
+        "narx": 1600,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "Asus ROG Strix",
+        "narx": 2000,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "Sony WH-1000XM5",
+        "narx": 400,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Bose QuietComfort 45",
+        "narx": 380,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Logitech MX Master 3",
+        "narx": 100,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Razer DeathAdder V2",
+        "narx": 80,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "SteelSeries Apex Pro",
+        "narx": 200,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Samsung 49\" UltraWide Monitor",
+        "narx": 900,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Dell 27\" 4K Monitor",
+        "narx": 500,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Apple Watch Series 8",
+        "narx": 500,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Samsung Galaxy Watch 5",
+        "narx": 450,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Garmin Fenix 7",
+        "narx": 700,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Sony PlayStation 5",
+        "narx": 550,
+        "turi": "Konsol"
+    },
+    {
+        "nomi": "Xbox Series X",
+        "narx": 500,
+        "turi": "Konsol"
+    },
+    {
+        "nomi": "Nintendo Switch OLED",
+        "narx": 350,
+        "turi": "Konsol"
+    },
+    {
+        "nomi": "Razer Blade 15",
+        "narx": 2300,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "Alienware Aurora R15",
+        "narx": 2800,
+        "turi": "Kompyuter"
+    },
+    {
+        "nomi": "Corsair K100 RGB Keyboard",
+        "narx": 250,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "JBL Charge 5 Speaker",
+        "narx": 150,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Anker PowerCore 26800",
+        "narx": 90,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "HyperX Cloud II",
+        "narx": 120,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Epson EcoTank Printer",
+        "narx": 400,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "AirPods",
+        "narx": 60,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "Mouse",
+        "narx": 120,
+        "turi": "Aksesuar"
+    },
+    {
+        "nomi": "fdsaf",
+        "narx": 324132,
+        "turi": "fadsfs"
+    }
 ]
